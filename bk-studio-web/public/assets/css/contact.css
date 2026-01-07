@@ -1,0 +1,241 @@
+.contact-title {
+    padding: 120px 24px 80px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.contact-title h1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    line-height: 1.2;
+    color: #2a2929;
+}
+
+.contact-title p {
+    max-width: 700px;
+    margin: 24px auto 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-info:hover,
+.contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #1d4ed8;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+}
+
+.contact-list li:hover {
+    transform: translateX(5px);
+}
+
+.contact-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 45px;
+    min-height: 45px;
+    background: #1d4ed8;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.contact-list li:hover .contact-icon {
+    background: #2563eb;
+    transform: scale(1.1);
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contact-list a:hover {
+    color: #1d4ed8;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #1d4ed8;
+}
+
+.contact-form button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1d4ed8;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.contact-form button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .contact-list li {
+        gap: 12px;
+    }
+
+    .contact-icon {
+        min-width: 40px;
+        min-height: 40px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-section {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        min-width: 0;
+        padding: 20px;
+    }
+
+    .contact-list li {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .contact-icon {
+        min-width: 35px;
+        min-height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+.kvkk-wrapper {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #eaeaea;
+}
+
+.kvkk-wrapper label {
+    color: #323232
+}
+
+
+.kvkk-wrapper input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.kvkk-link {
+    color: #14007a;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.kvkk-text {
+    display: none;
+    background: #14007a;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 8px;
+    color: #eaeaea;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.kvkk-link:hover {
+    color: #545454;
+}
+
+@media (max-width: 768px) {
+    .kvkk-text {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .kvkk-wrapper label {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

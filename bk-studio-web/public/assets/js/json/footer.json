@@ -1,0 +1,35 @@
+{
+    "brand": {
+        "name": "BK Studio Web",
+        "description": "Modern, hızlı ve SEO uyumlu web siteleri ile işletmenizi dijitalde büyütüyoruz."
+    },
+    "links": [
+        {
+            "text": "Anasayfa",
+            "link": "/"
+        },
+        {
+            "text": "Hakkımızda",
+            "link": "/hakkimizda/"
+        },
+        {
+            "text": "Portföy",
+            "link": "/portfoy/"
+        },
+        {
+            "text": "İletişim",
+            "link": "/iletisim/"
+        }
+    ],
+    "contact": {
+        "email": "bkstudioweb@gmail.com"
+    },
+    "bottom": {
+        "copyright": "© 2026 BK Studio Web • Frontend Developer • SEO Odaklı Web Siteleri",
+        "note": "BKStudioWeb için hazırlanan bu site portföy amaçlıdır. Şu an aktif bir işletme veya satış faaliyeti bulunmamaktadır.",
+        "author": {
+            "name": "Berat KARABULUT",
+            "link": "https://www.linkedin.com/in/berat-karabulut-2791bb277/"
+        }
+    }
+}

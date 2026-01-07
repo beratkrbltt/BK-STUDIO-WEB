@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Temel -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>İletişim | BK Studio Web</title>
+    <meta name="description"
+        content="BK Studio Web ile iletişime geçin. E-posta, telefon ve sosyal medya bilgilerimizi buradan bulabilirsiniz.">
+    <meta name="author" content="BK Studio Web">
+    <link rel="canonical" href="https://bk-studioweb.web.app/iletisim">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+
+    <!-- Icons -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+</head>
+
+
+<body>
+    <header id="site-header"></header>
+    <main>
+        <article>
+            <header class="contact-title">
+                <h1>İletişime Geçin</h1>
+                <p>
+                    Aklınızda bir proje mi var? Sizden haber almak isteriz.
+                    Bize bir mesaj gönderin, en kısa sürede size dönüş yapalım.
+                </p>
+            </header>
+            <section class="contact-section">
+                <div class="contact-info">
+                    <h2>İletişim Bilgileri</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="fa-solid fa-envelope contact-icon"></span>
+                            <a href="mailto:bkstudioweb@gmail.com">bkstudioweb@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="fa-brands fa-github contact-icon"></span>
+                            <a href="https://github.com/beratkrbltt" target="_blank"
+                                rel="noopener noreferrer">GitHub</a>
+                        </li>
+                        <li>
+                            <span class="fa-brands fa-linkedin contact-icon"></span>
+                            <a href="https://www.linkedin.com/in/berat-karabulut-2791bb277/" target="_blank"
+                                rel="noopener noreferrer">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Mesaj Gönderin</h2>
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+                        <input type="email" name="email" placeholder="E-posta adresiniz" required>
+                        <textarea name="message" placeholder="Projeniz hakkında kısaca bilgi verin..."
+                            required></textarea>
+                        <div class="kvkk-wrapper">
+                            <label>
+                                <input type="checkbox" id="kvkk-consent" required>
+                                KVKK aydınlatma metnini okudum ve onaylıyorum.
+                                <span class="kvkk-link" id="kvkk-link">[Metni Gör]</span>
+                            </label>
+
+                            <div class="kvkk-text" id="kvkk-text" style="display:none;">
+                                <p>
+                                    <strong>Kişisel Verilerinizin İşlenmesi Hakkında Bilgilendirme:</strong><br>
+                                    Bu form üzerinden paylaştığınız bilgiler, yalnızca talebinize yanıt vermek
+                                    amacıyla e-posta yoluyla iletilecektir. Verileriniz üçüncü kişilerle
+                                    paylaşılmaz ve 1 yıl süreyle saklanır.
+                                </p>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="time" id="time">
+                        <button type="submit">
+                            Gönder <span class="fa-solid fa-paper-plane"></span>
+                        </button>
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer id="site-footer"></footer>
+    <script src="/assets/js/UI/nav.js"></script>
+    <script src="/assets/js/UI/footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="/assets/js/mail.js"></script>
+</body>
+
+</html>

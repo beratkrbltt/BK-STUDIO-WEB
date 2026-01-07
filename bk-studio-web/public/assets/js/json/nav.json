@@ -1,0 +1,25 @@
+{
+    "logo": {
+        "img": "/assets/images/logo.png",
+        "text": "BK Studio Web",
+        "link": "/"
+    },
+    "menu": [
+        {
+            "text": "Anasayfa",
+            "link": "/"
+        },
+        {
+            "text": "Hakkımızda",
+            "link": "/hakkimizda/"
+        },
+        {
+            "text": "Portföy",
+            "link": "/portfoy/"
+        },
+        {
+            "text": "İletişim",
+            "link": "/iletisim/"
+        }
+    ]
+}

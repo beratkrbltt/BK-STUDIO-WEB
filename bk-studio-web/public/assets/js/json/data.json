@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Kurumsal Mali Müşavirlik Sitesi",
+        "img": "/assets/images/projectImages/1.png",
+        "description": "Kurumsal kimliğe uygun şekilde özel olarak tasarlanmış, responsive yapıya sahip bu web sitesi; anasayfa, hakkımızda, hizmetler ve iletişim bölümleriyle birlikte profesyonel SEO uyumlu olarak geliştirilmiştir.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Vanilla JS"
+        ],
+        "link": "https://salmanermalimusavirlik.web.app/"
+    },
+    {
+        "title": "Kişisel Portföy Sitesi",
+        "img": "/assets/images/projectImages/portfoy.png",
+        "description": "Tanıtım, yetkinlikler ve örnek projelerin slider kart yapısıyla sunulduğu; iletişim ve contact bölümlerini içeren, React ile geliştirilmiş modern ve responsive tek sayfa portföy sitesidir.",
+        "tags": [
+            "React",
+            "App Container",
+            "Component Structure"
+        ],
+        "link": "https://berattk-portfolio.web.app/"
+    }
+]
